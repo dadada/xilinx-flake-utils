@@ -52,17 +52,14 @@
     "fpga-utils": {
       "flake": false,
       "locked": {
-        "lastModified": 1668785371,
-        "narHash": "sha256-JPK9URlBWbKAEixaQaQ64tgdU6U9QMB/HnohtuNdgoQ=",
-        "ref": "refs/heads/main",
-        "rev": "08a8347b51c325e68bd08119b9903c70a57e9022",
-        "revCount": 102,
-        "type": "git",
-        "url": "ssh://git@gitlab.dlr.de/ft-ssy-aes/XANDAR/xilinx-workspace.git"
+        "lastModified": 1673532790,
+        "narHash": "sha256-G/99UOvhaSQzZLagYYhJPIOUl63iFtm4YSzDmkANC0U=",
+        "path": "/home/dadada/src/xilinx-workspace",
+        "type": "path"
       },
       "original": {
-        "type": "git",
-        "url": "ssh://git@gitlab.dlr.de/ft-ssy-aes/XANDAR/xilinx-workspace.git"
+        "path": "/home/dadada/src/xilinx-workspace",
+        "type": "path"
       }
     },
     "nixpkgs": {
@@ -83,10 +80,10 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1672686581,
-        "narHash": "sha256-j6OqjEKGHHR8O7vVQVcbHVXA6Lee0dRiIT1BfELoXu4=",
-        "path": "/nix/store/ii3y21rwzll12sravvfnds2gkmd9kkpm-source",
-        "rev": "02ac561953285d0a0f69067010f6e5e4001979b1",
+        "lastModified": 1673345971,
+        "narHash": "sha256-4DfFcKLRfVUTyuGrGNNmw37IeIZSoku9tgTVmu/iD98=",
+        "path": "/nix/store/mzcwbklb85avl9x9by53nknmpyzldlgq-source",
+        "rev": "54644f409ab471e87014bb305eac8c50190bcf48",
         "type": "path"
       },
       "original": {

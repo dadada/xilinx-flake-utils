@@ -1,7 +1,7 @@
 {
   inputs.flake-utils.url = "github:numtide/flake-utils";
   inputs.devshell.url = "github:numtide/devshell";
-  inputs.fpga-utils.url = "git+ssh://git@gitlab.dlr.de/ft-ssy-aes/XANDAR/xilinx-workspace.git";
+  inputs.fpga-utils.url = "path:///home/dadada/src/xilinx-workspace";
   inputs.fpga-utils.flake = false;
 
   outputs = { self, nixpkgs, flake-utils, ... } @ inputs:
