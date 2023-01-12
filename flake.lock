@@ -52,8 +52,8 @@
     "fpga-utils": {
       "flake": false,
       "locked": {
-        "lastModified": 1673532790,
-        "narHash": "sha256-G/99UOvhaSQzZLagYYhJPIOUl63iFtm4YSzDmkANC0U=",
+        "lastModified": 1673533719,
+        "narHash": "sha256-xuqXqkW3Sljzbf6ZqgE9cMnGclqLnfGO6/+5tG0ORdc=",
         "path": "/home/dadada/src/xilinx-workspace",
         "type": "path"
       },
