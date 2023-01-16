@@ -135,7 +135,10 @@
             chmod +x $out/bin/dada
             makeWrapper $out/bin/dada $out/bin/dada-wrapped --add-flags vitis --set XYZ ABC
           '';
+          utils = pkgs.callPackage ./default.nix { vitis = xilinx-packages.vitis-unified-software-platform-vitis_2019-2_1106_2127; };
+          default = self.packages.${system}.utils;
         } // xilinx-packages;
+
 
         checks = {
           nixpkgs-fmt = pkgs.runCommand "nixpkgs-fmt" { nativeBuildInputs = [ pkgs.nixpkgs-fmt ]; }

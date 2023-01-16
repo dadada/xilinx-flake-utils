@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-
+#!/usr/bin/bash
 
 # check if the libs and files are present
 if [[ ! -d "$UTILS_ROOT" ]]
